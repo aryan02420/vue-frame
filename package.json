@@ -1,5 +1,6 @@
 {
-  "name": "vue-frame",
+  "name": "@aryan02420/vue-frame",
+  "description": "Render your Vue nodes in an iframe",
   "private": false,
   "version": "0.0.0",
   "type": "module",
@@ -39,5 +40,18 @@
     "vite-plugin-dts": "^1.6.5",
     "vue-eslint-parser": "^9.1.0",
     "vue-tsc": "^0.40.4"
-  }
+  },
+  "author": "aryan02420 <aryan02420@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aryan02420/vue-frame.git"
+  },
+  "keywords": [
+    "vue",
+    "iframe"
+  ],
+  "bugs": {
+    "url": "https://github.com/aryan02420/vue-frame/issues"
+  },
+  "homepage": "https://github.com/aryan02420/vue-frame#readme"
 }

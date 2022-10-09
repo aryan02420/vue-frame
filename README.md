@@ -5,7 +5,7 @@ Render your Vue nodes in an iframe
 ## Installation
 
 ```bash
-npm i vue-frame
+npm i @aryan02420/vue-frame
 ```
 
 > Vue3 is a peer dependency and needs to be installed separately
