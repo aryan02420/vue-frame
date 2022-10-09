@@ -1,20 +1,42 @@
 {
   "name": "vue-frame",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "type": "module",
+  "files": [
+    "dist"
+  ],
+  "module": "./dist/vue-frame.js",
+  "main": "./dist/vue-frame.umd.cjs",
+  "types": "./dist/vue-frame.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/vue-frame.js",
+      "require": "./dist/vue-frame.umd.cjs"
+    }
+  },
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
-    "preview": "vite preview"
+    "build:demo": "vue-tsc --noEmit && vite build --config vite.demo.config.ts",
+    "preview": "vite preview --config vite.demo.config.ts",
+    "lint": "eslint ./src/**/*.{js,jsx,ts,tsx,vue}"
   },
   "dependencies": {
     "vue": "^3.2.37"
   },
   "devDependencies": {
+    "@types/node": "^18.8.3",
+    "@typescript-eslint/parser": "^5.39.0",
     "@vitejs/plugin-vue": "^3.1.0",
+    "eslint": "^8.25.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-vue": "^9.6.0",
+    "prettier": "^2.7.1",
     "typescript": "^4.6.4",
     "vite": "^3.1.0",
+    "vite-plugin-dts": "^1.6.5",
+    "vue-eslint-parser": "^9.1.0",
     "vue-tsc": "^0.40.4"
   }
 }
