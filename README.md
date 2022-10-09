@@ -8,6 +8,8 @@ Render your Vue nodes in an iframe
 npm i vue-frame
 ```
 
+> Vue3 is a peer dependency and needs to be installed separately
+
 ## Usage
 
 ```vue

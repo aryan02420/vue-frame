@@ -23,7 +23,7 @@
     "preview": "vite preview --config vite.demo.config.ts",
     "lint": "eslint ./src/**/*.{js,jsx,ts,tsx,vue}"
   },
-  "dependencies": {
+  "peerDependencies": {
     "vue": "^3.2.37"
   },
   "devDependencies": {
