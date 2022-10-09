@@ -15,6 +15,7 @@
       "require": "./dist/vue-frame.umd.cjs"
     }
   },
+  "license": "MIT",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
