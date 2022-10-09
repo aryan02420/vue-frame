@@ -37,3 +37,7 @@ If `true`, styles from parent window will be copied into the iframe. Use this to
 If set, it will create a new style tag using this value. Use this for injecting custom styles into the iframe.
 
 #### All properties of [HTMLIFrameElement](https://developer.mozilla.org/en-US/docs/Web/API/HTMLIFrameElement)
+
+## Demo
+
+https://aryan02420.github.io/vue-frame
